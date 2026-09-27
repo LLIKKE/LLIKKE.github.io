@@ -6,9 +6,9 @@ author_profile: true
 
 ## About Me
 
-Hello, I am **Li Ke**. Welcome to my personal website.
+Hello, I am **Ke Li**, a second-year master's student at the School of Software Technology, Zhejiang University. I expect to graduate in 2028.
 
-This page presents a brief introduction and my academic publications. More details about my research interests, education, and contact information will be added soon.
+My research interests include deep learning and model compression. You can also find my work on [Google Scholar](https://scholar.google.com/citations?user=ZSc1khwAAAAJ&hl=en).
 
 ## Publications
 
@@ -16,6 +16,4 @@ This page presents a brief introduction and my academic publications. More detai
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% else %}
-Publication information is being updated.
 {% endif %}

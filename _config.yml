@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Li Ke"
+title                    : "Ke Li"
 title_separator          : "-"
-name                     : &name "Li Ke"
-description              : &description "Li Ke's personal website and publications"
+name                     : &name "Ke Li"
+description              : &description "Ke Li's personal website and publications"
 url                      : https://LLIKKE.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LLIKKE/LLIKKE.github.io"
@@ -22,17 +22,17 @@ repository               : "LLIKKE/LLIKKE.github.io"
 author:
   # Biographic information
   avatar           : "avatar.png"
-  name             : "Li Ke"
+  name             : "Ke Li"
   pronouns         : # example: "she/her"  
-  bio              : "Welcome to my personal website"
+  bio              : "Master's student at Zhejiang University"
   location         :
-  employer         :
+  employer         : "Zhejiang University"
   uri              : # URL
   email            :
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=ZSc1khwAAAAJ&hl=en"
   impactstory      : # URL
   orcid            :
   semantic         : # URL
