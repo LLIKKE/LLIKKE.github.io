@@ -86,7 +86,7 @@
 
 /* Compact publication list used on the personal homepage. */
 .publication-compact {
-  padding: 0.85rem 0;
+  padding: 0.7rem 0;
   border-bottom: 1px solid $border-color;
 
   &:last-child {
@@ -127,7 +127,7 @@
   }
 }
 
-.publication-compact__authors {
+.page__content .publication-compact__authors {
   margin: 0 0 0.2rem 1.05rem;
   color: mix(#fff, $gray, 10%);
   font-size: $type-size-6;
@@ -148,7 +148,7 @@
   font-style: italic;
 }
 
-.publication-compact__contribution {
+.page__content .publication-compact__contribution {
   margin: 0 0 0.2rem 1.05rem;
   color: $gray;
   font-size: $type-size-7;
