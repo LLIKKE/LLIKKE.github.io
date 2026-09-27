@@ -14,6 +14,6 @@ My research interests include deep learning and model compression. You can also 
 
 {% if site.publications.size > 0 %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% include publication-compact.html %}
   {% endfor %}
 {% endif %}

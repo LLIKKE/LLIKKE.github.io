@@ -1,0 +1,38 @@
+{% include base_path %}
+
+<article class="publication-compact" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <h3 class="publication-compact__title" itemprop="headline">
+    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+  </h3>
+
+  <p class="publication-compact__authors" itemprop="author">{{ post.authors }}</p>
+
+  <div class="publication-compact__meta">
+    <span class="publication-compact__venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</span>
+    {% if post.author_role %}
+      <span class="publication-compact__role">{{ post.author_role }}</span>
+    {% endif %}
+  </div>
+
+  <div class="publication-compact__links" aria-label="Publication links">
+    {% assign publication_link_added = false %}
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">Paper</a>
+      {% assign publication_link_added = true %}
+    {% endif %}
+    {% if post.arxivurl %}
+      {% if publication_link_added %}<span aria-hidden="true">·</span>{% endif %}
+      <a href="{{ post.arxivurl }}">arXiv</a>
+      {% assign publication_link_added = true %}
+    {% endif %}
+    {% if post.codeurl %}
+      {% if publication_link_added %}<span aria-hidden="true">·</span>{% endif %}
+      <a href="{{ post.codeurl }}">Code</a>
+      {% assign publication_link_added = true %}
+    {% endif %}
+    {% if post.openreviewurl %}
+      {% if publication_link_added %}<span aria-hidden="true">·</span>{% endif %}
+      <a href="{{ post.openreviewurl }}">OpenReview</a>
+    {% endif %}
+  </div>
+</article>
