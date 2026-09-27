@@ -21,7 +21,7 @@ repository               : "LLIKKE/LLIKKE.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.png"
+  avatar           : "avatar.svg"
   name             : "Ke Li"
   pronouns         : # example: "she/her"  
   bio              : "Master's student at Zhejiang University"

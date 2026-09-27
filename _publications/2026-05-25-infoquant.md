@@ -6,7 +6,7 @@ excerpt: "A training-free method that shapes activation distributions to improve
 date: 2026-05-25
 venue: "EMNLP 2026 Main"
 authors: "<strong>Ke Li</strong>, Dong An, Xiaoling Zang, Can Ye, Liang Xie, Qibo Qiu, Chen Shen, Xiaofei He, Wenxiao Wang"
-author_role: "First author"
+contribution_note: "First author"
 arxivurl: "https://arxiv.org/abs/2605.26175"
 codeurl: "https://github.com/LLIKKE/InfoQuant"
 ---

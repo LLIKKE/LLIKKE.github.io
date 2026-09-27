@@ -1,18 +1,22 @@
 {% include base_path %}
 
 <article class="publication-compact" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <h3 class="publication-compact__title" itemprop="headline">
-    <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-  </h3>
+  <div class="publication-compact__heading">
+    <span class="publication-compact__index">{{ forloop.index }}.</span>
+    <h3 class="publication-compact__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h3>
+  </div>
 
   <p class="publication-compact__authors" itemprop="author">{{ post.authors }}</p>
 
   <div class="publication-compact__meta">
     <span class="publication-compact__venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</span>
-    {% if post.author_role %}
-      <span class="publication-compact__role">{{ post.author_role }}</span>
-    {% endif %}
   </div>
+
+  {% if post.contribution_note %}
+    <p class="publication-compact__contribution">{{ post.contribution_note }}</p>
+  {% endif %}
 
   <div class="publication-compact__links" aria-label="Publication links">
     {% assign publication_link_added = false %}
