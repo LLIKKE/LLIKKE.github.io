@@ -85,8 +85,15 @@
 }
 
 /* Compact publication list used on the personal homepage. */
+.publication-list {
+  overflow: hidden;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: #fff;
+}
+
 .publication-compact {
-  padding: 0.7rem 0;
+  padding: 1rem;
   border-bottom: 1px solid $border-color;
 
   &:last-child {
@@ -102,7 +109,7 @@
 
 .publication-compact__index {
   flex: 0 0 auto;
-  color: $gray;
+  color: #656d76;
   font-family: $sans-serif;
   font-size: $type-size-6;
   font-variant-numeric: tabular-nums;
@@ -117,7 +124,7 @@
   line-height: 1.35;
 
   a {
-    color: $text-color;
+    color: $link-color;
     text-decoration: none;
 
     &:hover {
@@ -129,7 +136,7 @@
 
 .page__content .publication-compact__authors {
   margin: 0 0 0.2rem 1.05rem;
-  color: mix(#fff, $gray, 10%);
+  color: #656d76;
   font-size: $type-size-6;
   line-height: 1.4;
 }
@@ -145,12 +152,13 @@
 }
 
 .publication-compact__venue {
+  color: #1f2328;
   font-style: italic;
 }
 
 .page__content .publication-compact__contribution {
   margin: 0 0 0.2rem 1.05rem;
-  color: $gray;
+  color: #656d76;
   font-size: $type-size-7;
   font-style: italic;
   line-height: 1.3;
@@ -159,13 +167,32 @@
 .publication-compact__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.15rem 0.4rem;
+  gap: 0.35rem;
   margin-left: 1.05rem;
   font-size: $type-size-7;
   line-height: 1.4;
 
   a {
-    font-weight: 600;
+    display: inline-block;
+    padding: 0.18rem 0.5rem;
+    border: 1px solid rgba(31, 35, 40, 0.15);
+    border-radius: $border-radius;
+    background: #f6f8fa;
+    color: #24292f;
+    font-weight: 500;
+    line-height: 1.25;
+    text-decoration: none;
+
+    &:hover {
+      border-color: rgba(31, 35, 40, 0.15);
+      background: #f3f4f6;
+      color: #24292f;
+      text-decoration: none;
+    }
+  }
+
+  span {
+    display: none;
   }
 }
 

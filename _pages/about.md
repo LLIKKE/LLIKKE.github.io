@@ -10,8 +10,10 @@ My research interests include deep learning and model compression. You can also 
 
 ## Publications
 
+<div class="publication-list">
 {% if site.publications.size > 0 %}
   {% for post in site.publications reversed %}
     {% include publication-compact.html %}
   {% endfor %}
 {% endif %}
+</div>

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title description">
-  <title id="title">Ke Li monogram</title>
-  <desc id="description">A minimal KL monogram in a dark blue circle.</desc>
-  <circle cx="200" cy="200" r="196" fill="#f7f8fa" stroke="#243447" stroke-width="8"/>
-  <text x="200" y="230" fill="#243447" font-family="Georgia, 'Times New Roman', serif" font-size="128" font-weight="600" letter-spacing="-8" text-anchor="middle">KL</text>
-</svg>
