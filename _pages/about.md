@@ -4,9 +4,9 @@ title: "About"
 author_profile: true
 ---
 
-Hello, I am **Ke Li**, a second-year master's student at the School of Software Technology, Zhejiang University. I expect to graduate in 2028. I am currently interning at ByteDance.
+Hello, I am **Ke Li**, a second-year master's student at the School of Software Technology, Zhejiang University. I expect to graduate in **2028**. I am currently working as a part-time intern at ByteDance.
+My research interests focus on model lightweighting and efficiency, particularly model compression, knowledge distillation, and efficient reasoning algorithms (e.g., Latent Chain-of-Thought).
 
-My research interests include deep learning and model compression.
 
 ## Publications
 
